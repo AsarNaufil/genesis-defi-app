@@ -1,10 +1,11 @@
 import './index.css'
+import { SignupForm } from './screens/SignupScreen'
 
 function App() {
 
   return (
-    <div className='h-screen bg-gray-800'>
-    <p className='text-red-500'>Hellow</p>
+    <div className='dark bg-black dark:bg-black'>
+      <SignupForm /> 
     </div>
   )
 }
