@@ -1,11 +1,16 @@
+// import React from 'react';
+import Navbar from './components/common/Navbar';
 import './index.css'
-import { SignupForm } from './screens/SignupScreen'
+import {
+  Outlet,
+} from "react-router-dom";
+
 
 function App() {
-
   return (
-    <div className='dark bg-black dark:bg-black'>
-      <SignupForm /> 
+    <div className='dark'>
+      <Navbar />
+      <Outlet />
     </div>
   )
 }

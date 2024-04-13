@@ -18,8 +18,10 @@ module.exports = {
     },
     extend: {
       colors: {
+        nauf: "#06b6d4",
         border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
+        // input: "hsl(var(--input))",
+        input: "240 5.9% 90%",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

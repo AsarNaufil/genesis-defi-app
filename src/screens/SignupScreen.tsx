@@ -7,14 +7,14 @@ import {
   IconBrandGoogle,
 } from "@tabler/icons-react";
 
-export function SignupForm() {
+function SignupPage() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form submitted");
   };
   return (
-    <div className="signup-page h-screen flex items-center justify-center">
-      <div className="max-w-md w-full rounded-none md:rounded-2xl p-4 md:p-8 shadow-lg bg-white dark:bg-black">
+    <div className="signup-page bg-white dark:bg-black h-screen flex items-center justify-center">
+      <div className="max-w-md w-full border rounded-none md:rounded-2xl p-4 md:p-8 bg-white dark:bg-black">
         <h2 className="font-bold text-center text-2xl text-neutral-800 dark:text-neutral-200">
           Welcome to Genesis DeFi 🚀
         </h2>
@@ -92,3 +92,4 @@ const LabelInputContainer = ({
   );
 };
 
+export default SignupPage;
