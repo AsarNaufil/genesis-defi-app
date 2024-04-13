@@ -8,12 +8,12 @@ Lending: Users can lend cryptocurrencies to earn interest on their deposits.
 Borrowing: Users can borrow cryptocurrencies by providing collateral in the form of other cryptocurrencies.
 
 ## ⚡️Technologies
-React: JavaScript library for building user interfaces.
-Redux: JavaScript library for managing application state.
-MetaMask: Browser extension for connecting to the Ethereum network.
-Solidity: Smart contract programming language used to create the lending and borrowing contracts.
-Node.js: JavaScript runtime for running the app server.
-Docker: Containerization platform for packaging the app into containers.
+React
+Redux
+MetaMask
+Solidity
+Node.js
+Docker
 
 ## 📦 Installation
 1. Clone the repository: `git clone https://github.com/AsarNaufil/genesis-defi-app.git`
