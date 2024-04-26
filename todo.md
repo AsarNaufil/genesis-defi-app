@@ -1,5 +1,5 @@
 accent color
 dashboard
-payments
+payments - refine ui more. - add alert dialog
 history
 tutorial
