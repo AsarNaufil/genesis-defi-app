@@ -11,8 +11,8 @@ function App() {
   return (
     <div className='transition-colors ease-in-out duration-1000'>
       <Navbar />
-      <Outlet />
       <Toaster />
+      <Outlet />
     </div>
   )
 }
